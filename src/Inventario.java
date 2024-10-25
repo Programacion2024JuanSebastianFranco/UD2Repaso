@@ -1,3 +1,9 @@
+/**
+ * Autor: Juan Sebastian Franco Castro
+ * 1K DAM
+ * UD2Repaso
+ */
+
 import java.util.Scanner;
 
 public class Inventario {
@@ -11,7 +17,7 @@ public class Inventario {
         int valor;
 
         //Recoleccion de Informacion al Usuario
-        System.out.println("1. Agregar Manzana\n2. Agregar Pera\n3. ELiminar Manzana\n4. ELiminar Pera\n" +
+        System.out.println("1. Agregar Manzana\n2. Agregar Pera\n3. Eliminar Manzana\n4. ELiminar Pera\n" +
                 "5. Mostrar Inventario\n6. Salir");
 
         //Verificar si el VaLor no es un Entero
@@ -71,7 +77,7 @@ public class Inventario {
             }
 
             //Volver a Mostrar el Menu
-            System.out.println("1. Agregar Manzana\n2. Agregar Pera\n3. ELiminar Manzana\n4. ELiminar Pera\n" +
+            System.out.println("1. Agregar Manzana\n2. Agregar Pera\n3. Eliminar Manzana\n4. ELiminar Pera\n" +
                     "5. Mostrar Inventario\n6. Salir");
 
             //Volver a Verificar si no es un Valor Entero
